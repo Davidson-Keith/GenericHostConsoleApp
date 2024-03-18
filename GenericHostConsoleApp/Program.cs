@@ -14,6 +14,11 @@ using Microsoft.Extensions.Hosting;
  * From:
  * https://dfederm.com/building-a-console-app-with-.net-generic-host/
  * https://github.com/dfederm/GenericHostConsoleApp/blob/main/appsettings.json
+ *
+ * IMO, unless you really want the async features, this method creates way too much overhead and messing about.
+ * A much simpler way to do it is as per:
+ * 
+ * https://github.com/Davidson-Keith/BuildErrorReporter
  */
 internal sealed class Program {
   private static async Task Main(string[] args) {
