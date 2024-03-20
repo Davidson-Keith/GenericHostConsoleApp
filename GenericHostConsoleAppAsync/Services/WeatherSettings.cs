@@ -1,4 +1,4 @@
-namespace GenericHostConsoleApp.Services;
+namespace GenericHostConsoleAppAsync.Services;
 
 internal sealed class WeatherSettings {
   public string Unit { get; init; } = string.Empty;

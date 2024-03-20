@@ -1,8 +1,8 @@
-using GenericHostConsoleApp.Services;
+using GenericHostConsoleAppAsync.Services;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace GenericHostConsoleApp;
+namespace GenericHostConsoleAppAsync;
 
 internal sealed class ConsoleHostedService : IHostedService
 {

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericHostConsoleApp", "GenericHostConsoleApp\GenericHostConsoleApp.csproj", "{85F801ED-C04F-401C-BD7B-E073E4EB18AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericHostConsoleAppAsync", "GenericHostConsoleAppAsync\GenericHostConsoleAppAsync.csproj", "{85F801ED-C04F-401C-BD7B-E073E4EB18AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

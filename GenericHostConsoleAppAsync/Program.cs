@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
-using GenericHostConsoleApp;
-using GenericHostConsoleApp.Services;
+using GenericHostConsoleAppAsync;
+using GenericHostConsoleAppAsync.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 /**
- * A Console App Hosted by the .NET Generic Host.
+ * A Console App Hosted by the .NET Generic Host, with async.
  * Using the Generic Host's built in:
  *  - DI
  *  - Configuration
@@ -13,9 +13,9 @@ using Microsoft.Extensions.Hosting;
  * 
  * From:
  * https://dfederm.com/building-a-console-app-with-.net-generic-host/
- * https://github.com/dfederm/GenericHostConsoleApp/blob/main/appsettings.json
+ * https://github.com/dfederm/GenericHostConsoleAppAsync/blob/main/appsettings.json
  *
- * IMO, unless you really want the async features, this method creates way too much overhead and messing about.
+ * IMO, unless you really want the async features, this technique creates way too much overhead and messing about.
  * A much simpler way to do it is as per:
  * 
  * https://github.com/Davidson-Keith/BuildErrorReporter

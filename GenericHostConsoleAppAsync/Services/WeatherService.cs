@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace GenericHostConsoleApp.Services;
+namespace GenericHostConsoleAppAsync.Services;
 
 internal sealed class WeatherService : IWeatherService {
   private readonly ILogger<WeatherService> logger;
