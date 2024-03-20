@@ -1,6 +1,6 @@
-# GenericHostConsole App
+# GenericHostConsoleAsync App
 
-A simple demo Console App using the [.NET Generic Host](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-8.0), providing:
+A simple async demo Console App using the [.NET Generic Host](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-8.0), providing:
 
 - DI
 - Configuration

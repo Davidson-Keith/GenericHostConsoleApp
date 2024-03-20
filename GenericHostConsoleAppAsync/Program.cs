@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 /**
- * A Console App Hosted by the .NET Generic Host, with async.
+ * A simple async demo Console App Hosted by the .NET Generic Host, with async.
  * Using the Generic Host's built in:
  *  - DI
  *  - Configuration
